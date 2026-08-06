@@ -6,7 +6,7 @@ API REST de autenticação (FastAPI + SQLAlchemy-style SQL + bcrypt + JWT), cons
 - **Emissão e validação de JWT** — tokens de acesso assinados, de vida curta (15 min), via `PyJWT`.
 - **Política de senha** — tamanho mínimo, exige maiúscula/minúscula/número/caractere especial, rejeita senhas comuns.
 - **Bloqueio de conta após força bruta** — depois de 5 tentativas de login inválidas, a conta trava por 15 minutos. O contador zera em um login bem-sucedido.
-- **Logging estruturado de tentativas de acesso** — toda tentativa de login vira uma linha de log JSON (usuário, resultado, timestamp) — a senha nunca aparece no log, nem em texto puro nem como hash.
+- **Logging estruturado de tentativas de acesso** — toda tentativa de login vira uma linha de log JSON (usuário, resultado, timestamp) — a senha nunca aparece no log, nem em texto puro nem como o hash.
 
 ## Por que a estrutura é essa
 
