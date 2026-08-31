@@ -91,13 +91,3 @@ Backend Development + Application Security + Cybersecurity
 📌 Project Status
 
 Educational project focused on backend development and application security.
-
-
-Depois:
-
-**Commit changes**
-
-Mensagem:
-
-```text
-Improve project documentation
